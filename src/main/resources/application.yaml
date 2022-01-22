@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://ip:33066/test?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&autoReconnectForPools=true
+    auto-commit: true
+logging:
+  level:
+    com:
+      example:
+        mysql8sql:
+          mapper: DEBUG
